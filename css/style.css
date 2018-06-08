@@ -1,49 +1,100 @@
 @charset "utf-8";
 body {
     background: lightgreen;
+    margin: 0 auto;
 }
 header {
-    height: 200px;
+    height: 400px;
     margin: 0 auto;
     background: url(../img/woddPlank.jpg) no-repeat center;
 }
 #wrapper {
     width: 1000px;
     margin: 0 auto;
-  /*   background: white; */
+    background: white;
 }
 footer {
     height: 200px;
-    background: url(../img/woodPlank.jpg);
+    background: url(../img/pattern.jpg);
+    margin: 0 auto;
+  
 
 }
 nav {
     text-align: right;
-    position: absolute;
+   /*  background: url(../img/cerf.png) no-repeat left; */
     right: 20px;
     top: 50px;
+   
 }
 nav ul li {
     list-style: none;
     display: inline-block;
-   /*  font-weight: 700; */
+    padding-bottom: 50px;
     
 }
-section {
-    height: auto;
+
+   section {
+  height: 300px;
+  width: 1000px;
 }
-.texte {
-    width: 400px;
+.droite {
+/* width: 300px;
+border: 2px solid green;
+padding: 10px; */
+position: absolute; /* position absolute et right 0 */
+right: 500px;
 }
+
 .agauche {
     float: left;
+    width: 400px;
+    height:300;
 }
 .adroite {
     float: right;
-}
-/* .img {
     width: 600px;
-} */
+    height: 300px;
+}
+.agauche1 {
+    float: left;
+    width: 600px;
+    height: 300px;
+}
+.adroite1 {
+    float: right;
+    width: 400px;
+    height:300;
+}
+
 .clear {
     clear: both;
+}
+.dernier {
+    height: 500px;
+    width: 1000px;
+}
+.graine {
+    background: url(../img/G1.jpg ) no-repeat center;
+    
+  
+}
+.graine2 {
+    background: url(../img/G2.png) no-repeat center;
+    display: inline-block;
+    padding-bottom: 30px;
+    top: 20px;
+}
+
+.cerf {
+    display: block;
+    padding-left: 450px;
+  
+}
+.icon {
+    display: block;
+    padding-top: 150px;
+    float: right;
+    padding-right: 20px;
+    
 }
